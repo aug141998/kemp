@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta
+      name="description"
+      content="Tours in and around Passau, Bavaria, Germany. Also providing language classes in English French Spanish and german."
+    />
+    <title>Team Kemp</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--navbar-->
+    <nav class="navbar">
+      <a href="#" class="toggle-button">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </a>
+
+      <div class="navbar-links">
+        <ul>
+          <li><a href="pages/travel.html">TOURS</a></li>
+          <li>
+            <a href="pages/language.html" class="navbreak">LANGUAGE-CLASSES</a>
+          </li>
+          <li class="below">
+            <a href="pages/sitzpinkler.html">SITZPINKLER</a>
+          </li>
+
+          <li><a href="#getin">CONTACT</a></li>
+          <li><a href="pages/donate.html">DONATE</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!--hero-->
+    <main>
+      <div class="container">
+        <img
+          class="container__bg"
+          src="images/tk-canvas.jpg"
+          alt="Our family picture"
+        />
+        <img
+          class="portrait"
+          fetchpriority="high"
+          src="images/tk-portrait.webp"
+          alt="Our family picture"
+        />
+      </div>
+    </main>
+
+    <!--2-cols-->
+    <div class="choice-box">
+      <div class="col-tour">
+        <a href="pages/travel.html">
+          <img
+            class="icon"
+            loading="lazy"
+            src="images/city-tour.png"
+            alt="Tour with us!"
+        /></a>
+      </div>
+
+      <div class="col-lang">
+        <a href="pages/language.html">
+          <img
+            class="icon2"
+            loading="lazy"
+            src="images/language.png"
+            alt="Learn with us!"
+        /></a>
+      </div>
+    </div>
+
+    <!--form-->
+    <div class="formwrap">
+      <h2><span id="getin">Get in </span>touch</h2>
+      <form
+        action="https://www.rtbranddesign.com/conditions/contactform.php"
+        method="post"
+      >
+        <input
+          name="name"
+          type="text"
+          placeholder="First Name"
+          required
+          pattern="[A-Za-z -]{2,20}"
+          title="A min. of 2 and max. 20 alphabetical characters"
+        />
+        <br /><br />
+
+        <input
+          name="mail"
+          type="email"
+          placeholder="Your Email"
+          required
+          maxlength="25"
+        />
+        <br /><br />
+
+        <textarea
+          class="message"
+          name="message"
+          placeholder="Your Message"
+          required
+          maxlength="60"
+        >
+        </textarea>
+        <br /><br />
+
+        <input type="submit" name="submit" value="Send → " class="send" />
+      </form>
+    </div>
+
+    <!--footer-->
+    <div class="footwrap">
+      <div class="listiconwrap">
+        <ul class="list1">
+          <li><a href="pages/travel.html">Tours</a></li>
+          <li><a href="pages/language.html">Language classes</a></li>
+
+          <li><a href="pages/donate.html">Support us</a></li>
+        </ul>
+
+        <ul class="icons">
+          <div class="emailwrap">
+            <div class="emailwrapinner">
+              <li>
+                <a href="mailto:teachercarson3000@gmail.com"
+                  ><img
+                    class="email e"
+                    loading="lazy"
+                    src="images/email-icon.png"
+                    alt=""
+                /></a>
+              </li>
+              <li>
+                <a href="mailto:teachercarson3000@gmail.com"
+                  ><img
+                    class="email e-hover"
+                    loading="lazy"
+                    src="images/email-blue.png"
+                    alt=""
+                /></a>
+              </li>
+            </div>
+          </div>
+
+          <div class="whatsappwrap">
+            <li>
+              <a href="#"></a>
+              <img
+                class="waqr"
+                loading="lazy"
+                src="images/whatsappqr.png"
+                alt="whatsapp QR code"
+              />
+            </li>
+            <li>
+              <a href="HTTPS://wa.me/4917636382288"
+                ><img
+                  class="wa"
+                  loading="lazy"
+                  src="images/whatsapp-icon.png"
+                  alt=""
+              /></a>
+            </li>
+            <li>
+              <a href="HTTPS://wa.me/4917636382288"
+                ><img
+                  class="wa-hover"
+                  loading="lazy"
+                  src="images/whatsapp-blue.png"
+                  alt=""
+              /></a>
+            </li>
+          </div>
+
+          <div class="wechatwrap">
+            <img class="wcqr" loading="lazy" src="images/wechatqr.png" alt="" />
+            <li>
+              <a href="#"></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img
+                  class="wc"
+                  loading="lazy"
+                  src="images/wechat-icon.png"
+                  alt=""
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img
+                  class="wc-hover"
+                  loading="lazy"
+                  src="images/wechat-blue.png"
+                  alt=""
+              /></a>
+            </li>
+          </div>
+        </ul>
+      </div>
+      <div class="signature">
+        <p>
+          Graphics & website created by
+          <a href="https://www.rtbranddesign.com"> rtb design</a>
+        </p>
+      </div>
+    </div>
+    <script src="script.js" defer></script>
+  </body>
+</html>
